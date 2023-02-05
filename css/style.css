@@ -1,0 +1,188 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+
+h1, ul, h2, h3, h4, h5, h6, p{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Roboto', sans-serif;
+	margin: 0;
+}
+
+.flex{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.announcement{
+	background-color: black;	
+	text-align: center;
+
+}
+
+.announcement:hover{
+	background-color: #ffb3b3;
+}
+
+.announcement a{
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+	padding: 10px 0;
+	font-size: 20px;
+}
+.announcement a:hover{
+	color: black;
+}
+
+nav	{
+	padding: 0 10px;
+}
+.logo{
+    flex-basis: 33.33%;
+}
+.logo h1{
+	font-size: 50px;
+}
+nav{}
+nav div{}
+nav div ul{
+	display: flex;
+}
+nav div ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 15px;    
+    transition-duration: .5s;
+    margin: 10px;
+    
+    
+}
+
+nav div ul li a{
+	text-decoration: none;
+	font-size: 20px;
+	color:black;
+}
+
+nav div ul li:hover{
+	border: 2px solid;
+	border-radius: 12px;
+    font-weight: 700;
+    background-color: skyblue;
+}
+.cart{
+    flex-basis: 33.33%;
+    text-align: right;
+    font-size: 33px;
+}
+.sec-1{
+}
+
+.sec-1 img{
+	width: 100%;
+}
+
+.cart a{
+	text-decoration: none;
+	color:black;
+	border: 2px dotted #ffce58;
+	
+}
+
+.cart a:hover{
+	background-color: #ff7d7d;
+	color: white;
+}
+.blog{
+	width: 1200px;		
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.blog1{
+	text-align: left;
+	flex-basis: 50%;
+}
+.blog1 h1{
+	font-size: 30px;
+}
+.blog1 p{
+	max-width: 800px;
+	font-size: 20px;
+}
+.blog1img{
+	flex-basis: 50%;
+	
+}
+
+.blog1img img{
+	width: 600px;
+}
+
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+}
+
+.button a{
+	text-decoration: none;
+	color: white;
+}
+
+.portfolio{}
+.container{
+	width: 1200px;
+	margin: 0 auto;
+	display: flex;
+	flex-wrap: wrap;
+	
+}
+.post{
+	flex-basis: 25%;
+	margin: 0;
+	padding: 5px;
+	box-sizing: border-box;
+
+}
+.post img{
+	width: 100%;
+	height: 300px;
+	object-fit: cover;
+
+}
+.post h2{
+	text-transform: uppercase;
+}
+.post p{
+	opacity: 0.7;
+}
+
+footer{
+	text-align: center;
+	background-color: #000;
+}
+footer p{
+	margin: 0;
+	color: white;
+	display: inline-block;
+	padding: 10px;
+	font-size: 20px;
+}
+footer a{
+	text-decoration: none;
+	color: lightblue;
+}
